@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 PATH = "C:\Program Files (x86)\chromedriver.exe"
-
+print("change")
 driver = webdriver.Chrome(PATH)
 
 driver.get("https://moodle.iitd.ac.in/login/index.php")
