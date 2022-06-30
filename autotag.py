@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 PATH = "C:\Program Files (x86)\chromedriver.exe"
+# This is the path
 
 driver = webdriver.Chrome(PATH)
 time.sleep(4)
